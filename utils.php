@@ -66,6 +66,15 @@ $pageList = array(
         "name" =>"test",
         "title"=>"Viens t'entrainer"
     )
+    ,array(
+        "name" => "populaires",
+        "title" => "les plus populaires"
+    ),
+    array(
+        "name" => "presentation",
+        "title" => "presentation du test"
+        
+    )
 );
 
 function checkPage($askedPage) {

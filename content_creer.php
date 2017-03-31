@@ -23,5 +23,14 @@
             <label><input type="radio" name="type" value="2">Image</label>
         </div>
     </div>
+    <div class="form-group">
+        <label for="ouverture"> Type de questionnaire:</label>
+        <div class="radio">
+            <label><input type="radio" name="ouverture" value="0">Privé</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="ouverture" value="1">Public</label>
+        </div>
+    </div>
     <button type="submit" class="btn btn-default">Créer</button>
 </form>
