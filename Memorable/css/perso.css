@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 avr. 2014, 09:14:23
+    Author     : olivierserre
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Barrio);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+body{
+    padding-top : 100px;
+}
+
+.forminscr{
+    width : 500px;
+    margin : auto;
+    padding : 10px;
+    border : 2px solid orange;
+}
+.label{
+    width :200px;
+    display : inline-block;
+}
+#nom, #description{
+    width:600px;
+}
+
+#creationquestion{
+    margin : auto;
+    width:50%;
+    height:100%;
+    padding :5%;
+    border : 3px solid #f2dede;
+}
+
+canvas{
+    margin : auto;
+    display : block;
+}
+
+.rubriqueaccueil{
+    width:60%;
+    border: solid 3px;
+    margin: 20px;
+    padding : 20px 20px 20px 20px;
+    background-color: grey;
+    font-family: Gloria Hallelujah, Rock Salt, Chalkduster, fantasy;
+}
+
+.lientest{
+    font-family : Gloria Hallelujah; 
+    border : solid 2px;
+    display : inline;
+    background-color : #ffbc88;
+    padding : 3px;
+    padding-right:10px;
+}
